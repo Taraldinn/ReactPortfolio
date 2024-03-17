@@ -1,7 +1,7 @@
 function About() {
     return (<>
             <div className="background-image bg-[url('https://www.rayhan.dev/images/blackgrit.png')]">
-                <div className="max-w-5xl mx-auto pt-20">
+                <div className="max-w-5xl mx-auto pt-20 px-5 lg:px-0">
                     <h3 className="mb-4 text-xl font-semibold font-body">~/Taraldinn/.about-me</h3>
 
                     <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-x-10">
@@ -9,7 +9,7 @@ function About() {
                         <div>
                             <img
                                 src="https://responsive-design-project-1-1.netlify.app/Project_1st_elements/about-pic.png"
-                                className="max-h-[450px] rounded-2xl max-w-[450px]" alt=""/>
+                                className="max-h-[450px] rounded-2xl max-w-[450px] pb-10 md:pb-0" alt=""/>
                         </div>
                         <div className="flex flex-col gap-y-5 text-primary">
                             <article className="rounded-lg border font-body border-gray-100 w-full bg-white p-6">

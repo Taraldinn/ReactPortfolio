@@ -8,7 +8,7 @@ function Body() {
     return (
       <>
           <div>
-              <div className=" ">
+              <div>
 
                   <div className=" ">
                       <Header/>
@@ -22,10 +22,7 @@ function Body() {
 
 
               </div>
-              <div className="mx-auto max-w-5xl mt-20">
 
-
-              </div>
 
           </div>
 

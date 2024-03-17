@@ -5,11 +5,11 @@ function Hero() {
         <>
             <div className="max-w-5xl mx-auto">
 
-                <div className="my-auto min-h-[90vh] flex-col flex align-middle items-center justify-center">
+                <div className="my-auto px-5 lg:px-0 py-5 md:py-0 min-h-[90vh] flex-col flex align-middle items-center justify-center">
                     <div className="flex items-center flex-col md:flex-row gap-x-12 mt-10 md:mt-0 ">
-                        <div>
+                        <div className='pb-10 md:pb-0 flex justify-center md:justify-start mx-auto'>
                             <img src={Aldinn}
-                                 className="max-h-[400px] max-w-[400px] aspect-auto object-contain rounded-full"
+                                 className="max-h-[200] max-w-[200] md:max-h-[400px] lg:max-w-[400px]  rounded-full"
                                  alt=""/>
                         </div>
                         <div className="h-[400] flex flex-col justify-start  gap-y-5">

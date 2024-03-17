@@ -3,7 +3,7 @@ function Projects() {
     return (
         <div className="background-image bg-[url('https://www.rayhan.dev/images/blackgrit.png')]">
 
-            <div className="mx-auto max-w-5xl pt-20">
+            <div className="mx-auto max-w-5xl pt-20 px-5 lg:px-0">
 
                 <h3 className="mb-4 text-xl font-semibold font-body">~/Taraldinn/.openSource</h3>
 

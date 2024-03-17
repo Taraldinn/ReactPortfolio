@@ -5,9 +5,9 @@ function Navbar() {
         <>
             <div className="mx-auto max-w-5xl">
 
-                <div className="flex  text-primary mt-3 h-12 items-center justify-between ">
+                <div className="px-5 lg:px-0 flex gap-x-1  text-primary mt-3 h-12 items-center justify-between ">
                     <div>
-                        <h1 className="text-4xl font-mont  font-semibold">Aldinn</h1>
+                        <h1 className="text-4xl md:text-2xl font-mont  font-semibold">Aldinn</h1>
                     </div>
                     <div>
                         <ul className="flex text-lg items-center gap-x-4 justify-center font-body font-normal">
